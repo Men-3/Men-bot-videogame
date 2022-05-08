@@ -7,7 +7,11 @@ import requests
 def clear():
   print("\033c", end = "")
 
-class PoopError(n): pass
+class PoopError(Exception):
+  def __init__(self, fart, message="Die you fat men man poop bitch"):
+    self.fart = fart
+    self.message = message
+    super().__init__(self.message)
 
 if not os.path.exists('assets/dog.png'):
   raise PoopError('DIE DIE DIE DIE DIE DIE DIE DIE DIE')
@@ -36,8 +40,8 @@ amogus = '''
 ⠀⠀⠀⠀⠀⠀⣰⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⢸⠀⣼⠀⠀⡇⠀⣼⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢰⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⢶⣯⣭⠤⠿⣠⣖⣃⣀⣹⡄⠀⠀⠀
 mogus'''
-
-if input("is men good?").lower() in score2:
+mennnnnnn = input("is men good?").lower()
+if mennnnnnn in score2:
   if random.randint(1, 20) == 1:
     to_be_called_randomly()
   print("good boy")
@@ -56,6 +60,9 @@ if input("is men good?").lower() in score2:
   print("Heres your IP bozo: {0}".format(ip))
   if os.name in ('nt', 'dos'):
     print(os.system('ipconfig /all'))
+elif mennnnnnn == 'no':
+  fart = 'fart'
+  raise PoopError(fart)
 
 print("score:", score*score)
 
