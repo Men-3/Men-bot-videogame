@@ -1,3 +1,5 @@
+# GitHub repo for version control: https://github.com/tnix100/Men-bot-videogame
+
 import random
 import os
 import requests
