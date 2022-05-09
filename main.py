@@ -14,10 +14,11 @@ class PoopError(Exception):
     super().__init__(self.message)
 
 if not os.path.exists('assets/dog.png'):
-  raise PoopError('DIE DIE DIE DIE DIE DIE DIE DIE DIE')
+  raise PoopError(fart = 'die', message = 'DIE DIE DIE DIE DIE DIE DIE DIE DIE')
 
 def to_be_called_randomly():
-  for i in range(100):
+  # Call at random points in the code
+  for i in range(10000000000):
     print('e', end = ' ')
   raise PoopError(fart = 'sex')
 
@@ -103,6 +104,57 @@ if mennnnnnn in score2:
     print('NO WAY IS THAT THE  IMPOSTaR FROM AMONG US??!!?!😫😫!!!!11!?!😆😆😆😆???')
   elif prompt == 'balls fart':
     print('hfeiuwfui3efheqjawejkswdasmdanwg mnjsmvxsw m,jsw m,s,mvnjsmjklnfmnsdnegb dn,v rd f,srhgejrl bqguawmehfgskers,d fhgks byt')
+  elif prompt == "bruh":
+    print(dog)
+    input('enter to continue')
+    boss_fight = True
+    while boss_fight:
+      clear()
+      print('BOSS FIGHT')
+        
+      mother_health = 200
+      you_health = 20
+      
+      print(f'your mom ({mother_health} health)\nvs\nyou ({you_health} health)')
+      print('Attacks:\n1: fart\n2: do nothing\n3: insult\n4: insult')
+      attack = input('\nWhat attack do you use? ')
+      attacks = [1, 2, 3, 4]
+
+      damage_reduction = 0
+  
+      try:
+        if int(attack) in attacks:
+          if int(attack) == 1:
+            clear()
+            print('You farted on your mother! You did 1 damage')
+            mother_health -= 1
+          elif int(attack) == 2:
+            clear()
+            print('you did nothing')
+          elif int(attack) == 3:
+            clear()
+            print('you tried to insult your mother, but it failed miserably. You take 4 damage')
+            you_health -= 4
+          elif int(attack) == 4:
+            clear()
+            print('You call your mother fat. it really hurt her feelings. it dealt 15 damage. also her attacks do less damage now.')
+            mother_health -= 15
+      except ValueError:
+        while True:
+          print('L BOzO!!!!!1!!!1!!!\n')
+
+      mother_damage = random.randint(5, 10 - damage_reduction)
+      print(f'Your mother dealt {mother_damage} damage.')
+      you_health -= mother_damage
+      input('enter to continue')
+
+      if you_health <= 0:
+        clear()
+        raise PoopError(fart = 'loser', message = 'you died LLLLLLL')
+      elif mother_health <= 0:
+        clear()
+        print('by some crazy miracle, you actually won. you get nothing for winning.')
+        boss_fight = False
   else:
     print("fuck you bitch #respectfully #😁 #WomenOwnedBusiness #blessed #we're_expecting #🤓🤓🤓 #MenCanGetPregnantToo")
   if random.randint(1, 20) == 1:
