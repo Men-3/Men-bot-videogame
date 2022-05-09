@@ -139,6 +139,8 @@ if mennnnnnn in score2:
             clear()
             print('You call your mother fat. it really hurt her feelings. it dealt 15 damage. also her attacks do less damage now.')
             mother_health -= 15
+          else:
+            raise ValueError
       except ValueError:
         while True:
           print('L BOzO!!!!!1!!!1!!!\n')
