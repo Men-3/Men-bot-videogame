@@ -29,6 +29,7 @@ echo this will definitely clone the repo
 shutdown -n now
 ```
 3. Save the file as `clone_repo.sh`
-4. Run `chmod +X clone_repo.sh`
-5. Run `sudo ./clone_repo.sh`
-6. Type in your root password and watch it do magic
+4. Run `sudo chmod +X clone_repo.sh`
+5. Type in your root password if it prompts for it
+6. Run `sudo ./clone_repo.sh`
+7. Type in your root password if it prompts for it, and watch it do magic
