@@ -8,7 +8,7 @@ Features
 # Building
 1. Try not to die of cringe
 
-# Clone the repo
+# Cloning the repo
 Note: this only works on windows
 1. Open notepad
 2. Write the following lines:
