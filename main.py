@@ -2,6 +2,7 @@
 
 import random
 import os
+import sys
 import requests
 
 def clear():
@@ -22,7 +23,7 @@ def to_be_called_randomly():
     print('e', end = ' ')
   raise PoopError(fart = 'sex')
 
-score2 = ["ye", "yes", "truly incredible", 'i eat shit for a living']
+score2 = ["ye", "yes", "truly incredible", 'i eat shit for a living', 'i gorog']
 score = 0
 amogus = '''
 ⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠴⠒⠛⠉⠙⠳⡄⠀⠀⠀⠀ 
@@ -157,6 +158,18 @@ if mennnnnnn in score2:
         clear()
         print('by some crazy miracle, you actually won. you get nothing for winning.')
         boss_fight = False
+
+  elif prompt == 'poop':
+    print('''
+p
+          o
+          o
+                  p
+          o
+          o
+p
+          ''')
+    sys.exit()
   else:
     print("fuck you bitch #respectfully #😁 #WomenOwnedBusiness #blessed #we're_expecting #🤓🤓🤓 #MenCanGetPregnantToo")
   if random.randint(1, 20) == 1:
