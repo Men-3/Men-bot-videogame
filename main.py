@@ -66,10 +66,10 @@ dog = '''
                       ╟╣▒╫▓▓▓▓▓▓▒▒▒░░░░░░ ░░
                      ╓╫▓╣╢▓▓▓╣╣▒▒▒░   ░░░░░
                      ░╫▓▒▒╢╢▒▒▒▒▒▒▒░░░░░░░░
-                     ░▒░▒▒▒▒▒░░░░▒╢╢@▒░░░░
+                     ░▒░▒▒▒▒▒nice▒╢╢@▒░░░░
                      ░░░▒▒▒▒▒▒░░░░░▒▒▒▒░░
                       ░░▒▒▒▒▒▒▒▒░░ ░▒░░░░░
-                     ░░▒▒▒▒▒▒▒░nice░░░░░░░░░
+                     ░░▒▒▒▒▒▒▒░░░░░░░░░░░░░
                    ░░░░░▒▒▒▒▒▒░░░░░░░░░░░░░░
                   ░░░░░▒░░░░░▒░░░░░  ░░  ░░░,¿
                 ░░░▒▒░░▒▒  ` ▒░░░░  ░  ░ ▒░░▒░
@@ -122,7 +122,8 @@ if mennnnnnn in score2:
       attacks = [1, 2, 3, 4]
 
       damage_reduction = 0
-  
+      if attack not in attacks:
+        raise ValueError
       try:
         if int(attack) in attacks:
           if int(attack) == 1:
@@ -140,11 +141,12 @@ if mennnnnnn in score2:
             clear()
             print('You call your mother fat. it really hurt her feelings. it dealt 15 damage. also her attacks do less damage now.')
             mother_health -= 15
-          else:
-            raise ValueError
       except ValueError:
         while True:
           print('L BOzO!!!!!1!!!1!!!\n')
+          ran = random.randint(1,100000)
+          if ran == 69420:
+            raise PoopError('sexual tension')
 
       mother_damage = random.randint(5, 10 - damage_reduction)
       print(f'Your mother dealt {mother_damage} damage.')
