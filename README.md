@@ -33,3 +33,16 @@ shutdown -n now
 5. Type in your root password if it prompts for it
 6. Run `sudo ./clone_repo.sh`
 7. Type in your root password if it prompts for it, and watch it do magic
+
+# Cloning your mother
+
+1. Go to cmd and type
+```
+python3 -s -m pip install catboys
+```
+2. Go to python console and type
+```
+import catboys
+print(catboys.img())
+```
+3. And success (only works on windows 95)
