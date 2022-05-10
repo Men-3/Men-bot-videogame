@@ -181,5 +181,16 @@ p
 elif mennnnnnn == 'no':
   fart = 'fart'
   raise PoopError(fart)
+elif mennnnnnn == 'sex':
+  try:
+    print('we are going to raise ValueError')
+    if input() == 'ValueError':
+      print('i lied bitch #suckballs')
+    else:
+      raise ValueError
+  except ValueError:
+    print('ValueError has been raised')
+    input()
+    raise PoopError('what')
 
 print("score:", score*score, '\n' + dog)
