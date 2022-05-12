@@ -204,9 +204,9 @@ elif mennnnnnn == 'mother':
   while True:
     if input() == 'oif8ofha f84ihf audhf uhkjar 83skdhfdfgun 58wh erfgnwjkr 85w':
       print('bozo')
+      break
     else:
       print('there is no escape from the madness')
-      break
   print('sex time time time  timetimetim timetimetimetiem timetime')
   input() #useless
 
