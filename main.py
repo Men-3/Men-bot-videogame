@@ -194,5 +194,20 @@ elif mennnnnnn == 'sex':
     print('ValueError has been raised')
     input()
     raise PoopError('what')
+elif mennnnnnn == 'mother':
+  print('she does not exist therefore existance is useless')
+  print('just like your dad, six feet under #bozo')
+  if input() == 'no u':
+    print('die')
+  else:
+    print('die but worser')
+  while True:
+    if input() == 'oif8ofha f84ihf audhf uhkjar 83skdhfdfgun 58wh erfgnwjkr 85w':
+      print('bozo')
+    else:
+      print('there is no escape from the madness')
+      break
+  print('sex time time time  timetimetim timetimetimetiem timetime')
+  input() #useless
 
 print("score:", score*score, '\n' + dog)
