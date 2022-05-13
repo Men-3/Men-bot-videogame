@@ -202,10 +202,13 @@ elif mennnnnnn == 'mother':
   else:
     print('die but worser')
   while True:
-    if input() == 'oif8ofha f84ihf audhf uhkjar 83skdhfdfgun 58wh erfgnwjkr 85w':
-      print('bozo')
-      break
-    else:
+    try:
+      if input() == 'oif8ofha f84ihf audhf uhkjar 83skdhfdfgun 58wh erfgnwjkr 85w':
+        print('bozo')
+        break
+      else:
+        print('there is no escape from the madness')
+    except:
       print('there is no escape from the madness')
   print('sex time time time  timetimetim timetimetimetiem timetime')
   input() #useless
