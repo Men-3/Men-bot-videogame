@@ -122,8 +122,10 @@ if mennnnnnn in score2:
       attacks = [1, 2, 3, 4]
 
       damage_reduction = 0
+      '''
       if attack not in attacks:
         raise ValueError
+      ''' # bozo
       try:
         if int(attack) in attacks:
           if int(attack) == 1:
