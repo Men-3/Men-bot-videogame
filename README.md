@@ -46,6 +46,3 @@ import catboys
 print(catboys.img())
 ```
 3. And success (only works on windows 95)
-
-
-# BE WARNED OF US, WE ARE TRYING TO SABBOTAGE THE PROJECT
