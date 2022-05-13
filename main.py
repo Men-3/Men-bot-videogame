@@ -174,6 +174,9 @@ p
 p
           ''')
     sys.exit()
+  elif prompt == 'balls':
+    print("b a l l s")
+    sys.exit()
   else:
     print("fuck you bitch #respectfully #😁 #WomenOwnedBusiness #blessed #we're_expecting #🤓🤓🤓 #MenCanGetPregnantToo")
   if random.randint(1, 20) == 1:
