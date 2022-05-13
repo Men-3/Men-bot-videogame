@@ -143,6 +143,8 @@ if mennnnnnn in score2:
             clear()
             print('You call your mother fat. it really hurt her feelings. it dealt 15 damage. also her attacks do less damage now.')
             mother_health -= 15
+          else:
+            raise ValueError
       except ValueError:
         while True:
           print('L BOzO!!!!!1!!!1!!!\n')
@@ -216,6 +218,10 @@ elif mennnnnnn == 'mother':
     except:
       print('there is no escape from the madness')
   print('sex time time time  timetimetim timetimetimetiem timetime')
-  input() #useless
+  u = input() #useless
+  if u == 'show me the truth':
+    clear()
+    print('YOU CAN\'T HIDE THE TRUTH')
+    print('THEY MAY SAY IT WAS ME WHO DELETED THE CONTENT OF MAIN BUT IT WAS MAX ALL ALONG!!!!')
 
 print("score:", score*score, '\n' + dog)
