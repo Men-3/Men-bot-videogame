@@ -221,7 +221,6 @@ elif mennnnnnn == 'mother':
   u = input() #useless
   if u == 'show me the truth':
     clear()
-    print('YOU CAN\'T HIDE THE TRUTH')
-    print('THEY MAY SAY IT WAS ME WHO DELETED THE CONTENT OF MAIN BUT IT WAS MAX ALL ALONG!!!!')
+    print('hayden you are clincally insane')
 
 print("score:", score*score, '\n' + dog)
