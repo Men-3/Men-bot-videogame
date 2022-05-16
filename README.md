@@ -7,6 +7,7 @@ Features
 - sex dlc coming soon
 
 # Building
+NOTE: You must 100% the sex path without getting value error before building
 1. Try not to die of cringe
 
 # Cloning the repo - Windows
