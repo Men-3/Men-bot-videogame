@@ -2,6 +2,7 @@
 
 import random
 import os
+import time
 import sys
 import requests
 
@@ -221,6 +222,11 @@ elif mennnnnnn == 'mother':
   u = input() #useless
   if u == 'show me the truth':
     clear()
-    print('hayden you are clincally insane')
+    print('the truth?')
+    time.sleep(1)
+    print('the truth is...')
+    time.sleep(1)
+    print('you are adopted 😈👽👹👺')
+    sys.exit()
 
 print("score:", score*score, '\n' + dog)
