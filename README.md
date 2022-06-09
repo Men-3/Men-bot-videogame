@@ -23,7 +23,7 @@ goto poop
 4. Run `clone_repo.bat` by double-clicking it
 
 # Cloning the repo - Linux
-1. Open a text editor such as nano or touch
+1. Open a text editor such as nano
 2. Write the following lines:
 ```
 echo this will definitely clone the repo
